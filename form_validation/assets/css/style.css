@@ -1,0 +1,1775 @@
+/**======================================================================
+=========================================================================
+Template Name: Website Template of Deliciosa Resturant
+Author: Md Musab Mahmud
+supports: 
+File: style.css
+=========================================================================
+=========================================================================
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+    2. Header area start here
+    3. Slider area start here
+    4. About area start here
+    5. Breadcumb area start here
+    6. Banner area start here
+    7. Services area start here
+    8. Team area start here
+    9. Price list area start here
+    10. Pagination area start here
+    11. Sidebar area start here
+    12. Products area start here
+    13. Testimonial area start here
+    14. Client area start here
+    15. Form area start here
+    16. Social link area start here
+    17. Blog area start here
+    18. Faq area start here
+    19. Contact area start here
+    20. Footer area start here
+    21. Gallery area start here
+---------------------------------------*/
+/*....................................
+1.1Theme default CSS
+....................................*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.back_top {
+  z-index: 99999;
+  text-align: center;
+  position: fixed;
+  background: #5bbc2e;
+  color: #fff;
+  display: inline;
+  width: 40px;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  display: block;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 900;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+textarea {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+}
+
+textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+textarea:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.gl-btn {
+  background: #5bbc2e;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+}
+
+.gl-btn:hover {
+  background: #CAC5C1;
+  color: #000;
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+/*** Margin ***/
+.mr-lu {
+  margin-left: auto !important;
+}
+
+.mr-ru {
+  margin-right: auto !important;
+}
+
+.t-0 {
+  top: 0;
+}
+
+.l-0 {
+  left: 0;
+}
+
+.r-0 {
+  right: 0;
+}
+
+.b-0 {
+  bottom: 0;
+}
+
+.mr-0 {
+  margin: 0;
+}
+
+.mr-t0 {
+  margin-top: 0px;
+}
+
+.mr-t5 {
+  margin-top: 5px;
+}
+
+.mr-t10 {
+  margin-top: 10px;
+}
+
+.mr-t15 {
+  margin-top: 15px;
+}
+
+.mr-t20 {
+  margin-top: 20px;
+}
+
+.mr-t25 {
+  margin-top: 25px;
+}
+
+.mr-t30 {
+  margin-top: 30px;
+}
+
+.mr-t35 {
+  margin-top: 35px;
+}
+
+.mr-t40 {
+  margin-top: 40px;
+}
+
+.mr-t45 {
+  margin-top: 45px;
+}
+
+.mr-t50 {
+  margin-top: 50px;
+}
+
+.mr-t60 {
+  margin-top: 60px;
+}
+
+.mr-t70 {
+  margin-top: 70px;
+}
+
+.mr-t80 {
+  margin-top: 80px;
+}
+
+.mr-t90 {
+  margin-top: 90px;
+}
+
+.mr-t100 {
+  margin-top: 100px;
+}
+
+.mr-t110 {
+  margin-top: 110px;
+}
+
+.mr-t120 {
+  margin-top: 120px;
+}
+
+.mr-t130 {
+  margin-top: 130px;
+}
+
+.mr-t140 {
+  margin-top: 140px;
+}
+
+.mr-t150 {
+  margin-top: 150px;
+}
+
+.mr-b0 {
+  margin-bottom: 0px;
+}
+
+.mr-b5 {
+  margin-bottom: 5px;
+}
+
+.mr-b10 {
+  margin-bottom: 10px;
+}
+
+.mr-b15 {
+  margin-bottom: 15px;
+}
+
+.mr-b20 {
+  margin-bottom: 20px;
+}
+
+.mr-b25 {
+  margin-bottom: 25px;
+}
+
+.mr-b30 {
+  margin-bottom: 30px;
+}
+
+.mr-b35 {
+  margin-bottom: 35px;
+}
+
+.mr-b40 {
+  margin-bottom: 40px;
+}
+
+.mr-b45 {
+  margin-bottom: 45px;
+}
+
+.mr-b50 {
+  margin-bottom: 50px;
+}
+
+.mr-b60 {
+  margin-bottom: 60px;
+}
+
+.mr-b70 {
+  margin-bottom: 70px;
+}
+
+.mr-b80 {
+  margin-bottom: 80px;
+}
+
+.mr-b90 {
+  margin-bottom: 90px;
+}
+
+.mr-b100 {
+  margin-bottom: 100px;
+}
+
+.mr-b110 {
+  margin-bottom: 110px;
+}
+
+.mr-b120 {
+  margin-bottom: 120px;
+}
+
+.mr-b130 {
+  margin-bottom: 130px;
+}
+
+.mr-b140 {
+  margin-bottom: 140px;
+}
+
+.mr-b150 {
+  margin-bottom: 150px;
+}
+
+.mr-l0 {
+  margin-left: 0px;
+}
+
+.mr-l5 {
+  margin-left: 5px;
+}
+
+.mr-l10 {
+  margin-left: 10px;
+}
+
+.mr-l15 {
+  margin-left: 15px;
+}
+
+.mr-l20 {
+  margin-left: 20px;
+}
+
+.mr-l25 {
+  margin-left: 25px;
+}
+
+.mr-l30 {
+  margin-left: 30px;
+}
+
+.mr-l35 {
+  margin-left: 35px;
+}
+
+.mr-l40 {
+  margin-left: 40px;
+}
+
+.mr-l45 {
+  margin-left: 45px;
+}
+
+.mr-l50 {
+  margin-left: 50px;
+}
+
+.mr-l60 {
+  margin-left: 60px;
+}
+
+.mr-l70 {
+  margin-left: 70px;
+}
+
+.mr-l80 {
+  margin-left: 80px;
+}
+
+.mr-l90 {
+  margin-left: 90px;
+}
+
+.mr-l100 {
+  margin-left: 100px;
+}
+
+.mr-l110 {
+  margin-left: 110px;
+}
+
+.mr-l120 {
+  margin-left: 120px;
+}
+
+.mr-l130 {
+  margin-left: 130px;
+}
+
+.mr-l140 {
+  margin-left: 140px;
+}
+
+.mr-l150 {
+  margin-left: 150px;
+}
+
+.mr-r0 {
+  margin-right: 0px;
+}
+
+.mr-r5 {
+  margin-right: 5px;
+}
+
+.mr-r10 {
+  margin-right: 10px;
+}
+
+.mr-r15 {
+  margin-right: 15px;
+}
+
+.mr-r20 {
+  margin-right: 20px;
+}
+
+.mr-r25 {
+  margin-right: 25px;
+}
+
+.mr-r30 {
+  margin-right: 30px;
+}
+
+.mr-r35 {
+  margin-right: 35px;
+}
+
+.mr-r40 {
+  margin-right: 40px;
+}
+
+.mr-r45 {
+  margin-right: 45px;
+}
+
+.mr-r50 {
+  margin-right: 50px;
+}
+
+.mr-r60 {
+  margin-right: 60px;
+}
+
+.mr-r70 {
+  margin-right: 70px;
+}
+
+.mr-r80 {
+  margin-right: 80px;
+}
+
+.mr-r90 {
+  margin-right: 90px;
+}
+
+.mr-r100 {
+  margin-right: 100px;
+}
+
+.mr-r110 {
+  margin-right: 110px;
+}
+
+.mr-r120 {
+  margin-right: 120px;
+}
+
+.mr-r130 {
+  margin-right: 130px;
+}
+
+.mr-r140 {
+  margin-right: 140px;
+}
+
+.mr-r150 {
+  margin-right: 150px;
+}
+
+.mr-0 {
+  margin: 0;
+}
+
+.mr-5 {
+  margin: 5px;
+}
+
+.mr-10 {
+  margin: 10px;
+}
+
+.mr-15 {
+  margin: 15px;
+}
+
+.mr-20 {
+  margin: 20px;
+}
+
+.mr-25 {
+  margin: 25px;
+}
+
+.mr-30 {
+  margin: 30px;
+}
+
+.mr-35 {
+  margin: 35px;
+}
+
+.mr-40 {
+  margin: 40px;
+}
+
+.mr-45 {
+  margin: 45px;
+}
+
+.mr-50 {
+  margin: 50px;
+}
+
+.mr-60 {
+  margin: 60px;
+}
+
+.mr-70 {
+  margin: 70px;
+}
+
+.mr-80 {
+  margin: 80px;
+}
+
+.mr-90 {
+  margin: 90px;
+}
+
+.mr-100 {
+  margin: 100px;
+}
+
+.mr-110 {
+  margin: 110px;
+}
+
+.mr-120 {
+  margin: 120px;
+}
+
+.mr-130 {
+  margin: 130px;
+}
+
+.mr-140 {
+  margin: 140px;
+}
+
+.mr-150 {
+  margin: 150px;
+}
+
+/*** Padding ***/
+.pd-0 {
+  padding: 0;
+}
+
+.pd-t0 {
+  padding-top: 0px;
+}
+
+.pd-t5 {
+  padding-top: 5px;
+}
+
+.pd-t10 {
+  padding-top: 10px;
+}
+
+.pd-t15 {
+  padding-top: 15px;
+}
+
+.pd-t20 {
+  padding-top: 20px;
+}
+
+.pd-t25 {
+  padding-top: 25px;
+}
+
+.pd-t30 {
+  padding-top: 30px;
+}
+
+.pd-t35 {
+  padding-top: 35px;
+}
+
+.pd-t40 {
+  padding-top: 40px;
+}
+
+.pd-t45 {
+  padding-top: 45px;
+}
+
+.pd-t50 {
+  padding-top: 50px;
+}
+
+.pd-t60 {
+  padding-top: 60px;
+}
+
+.pd-t70 {
+  padding-top: 70px;
+}
+
+.pd-t80 {
+  padding-top: 80px;
+}
+
+.pd-t90 {
+  padding-top: 90px;
+}
+
+.pd-t100 {
+  padding-top: 100px;
+}
+
+.pd-t110 {
+  padding-top: 110px;
+}
+
+.pd-t120 {
+  padding-top: 120px;
+}
+
+.pd-t130 {
+  padding-top: 130px;
+}
+
+.pd-t140 {
+  padding-top: 140px;
+}
+
+.pd-t150 {
+  padding-top: 150px;
+}
+
+.pd-b0 {
+  padding-bottom: 0px;
+}
+
+.pd-b5 {
+  padding-bottom: 5px;
+}
+
+.pd-b10 {
+  padding-bottom: 10px;
+}
+
+.pd-b15 {
+  padding-bottom: 15px;
+}
+
+.pd-b20 {
+  padding-bottom: 20px;
+}
+
+.pd-b25 {
+  padding-bottom: 25px;
+}
+
+.pd-b30 {
+  padding-bottom: 30px;
+}
+
+.pd-b35 {
+  padding-bottom: 35px;
+}
+
+.pd-b40 {
+  padding-bottom: 40px;
+}
+
+.pd-b45 {
+  padding-bottom: 45px;
+}
+
+.pd-b50 {
+  padding-bottom: 50px;
+}
+
+.pd-b60 {
+  padding-bottom: 60px;
+}
+
+.pd-b70 {
+  padding-bottom: 70px;
+}
+
+.pd-b80 {
+  padding-bottom: 80px;
+}
+
+.pd-b90 {
+  padding-bottom: 90px;
+}
+
+.pd-b100 {
+  padding-bottom: 100px;
+}
+
+.pd-b110 {
+  padding-bottom: 110px;
+}
+
+.pd-b120 {
+  padding-bottom: 120px;
+}
+
+.pd-b130 {
+  padding-bottom: 130px;
+}
+
+.pd-b140 {
+  padding-bottom: 140px;
+}
+
+.pd-b150 {
+  padding-bottom: 150px;
+}
+
+.pd-l0 {
+  padding-left: 0px;
+}
+
+.pd-l5 {
+  padding-left: 5px;
+}
+
+.pd-l10 {
+  padding-left: 10px;
+}
+
+.pd-l15 {
+  padding-left: 15px;
+}
+
+.pd-l20 {
+  padding-left: 20px;
+}
+
+.pd-l25 {
+  padding-left: 25px;
+}
+
+.pd-l30 {
+  padding-left: 30px;
+}
+
+.pd-l35 {
+  padding-left: 35px;
+}
+
+.pd-l40 {
+  padding-left: 40px;
+}
+
+.pd-l45 {
+  padding-left: 45px;
+}
+
+.pd-l50 {
+  padding-left: 50px;
+}
+
+.pd-l60 {
+  padding-left: 60px;
+}
+
+.pd-l70 {
+  padding-left: 70px;
+}
+
+.pd-l80 {
+  padding-left: 80px;
+}
+
+.pd-l90 {
+  padding-left: 90px;
+}
+
+.pd-l100 {
+  padding-left: 100px;
+}
+
+.pd-l110 {
+  padding-left: 110px;
+}
+
+.pd-l120 {
+  padding-left: 120px;
+}
+
+.pd-l130 {
+  padding-left: 130px;
+}
+
+.pd-l140 {
+  padding-left: 140px;
+}
+
+.pd-l150 {
+  padding-left: 150px;
+}
+
+.pd-r0 {
+  padding-right: 0px;
+}
+
+.pd-r5 {
+  padding-right: 5px;
+}
+
+.pd-r10 {
+  padding-right: 10px;
+}
+
+.pd-r15 {
+  padding-right: 15px;
+}
+
+.pd-r20 {
+  padding-right: 20px;
+}
+
+.pd-r25 {
+  padding-right: 25px;
+}
+
+.pd-r30 {
+  padding-right: 30px;
+}
+
+.pd-r35 {
+  padding-right: 35px;
+}
+
+.pd-r40 {
+  padding-right: 40px;
+}
+
+.pd-r45 {
+  padding-right: 45px;
+}
+
+.pd-r50 {
+  padding-right: 50px;
+}
+
+.pd-r60 {
+  padding-right: 60px;
+}
+
+.pd-r70 {
+  padding-right: 70px;
+}
+
+.pd-r80 {
+  padding-right: 80px;
+}
+
+.pd-r90 {
+  padding-right: 90px;
+}
+
+.pd-r100 {
+  padding-right: 100px;
+}
+
+.pd-r110 {
+  padding-right: 110px;
+}
+
+.pd-r120 {
+  padding-right: 120px;
+}
+
+.pd-r130 {
+  padding-right: 130px;
+}
+
+.pd-r140 {
+  padding-right: 140px;
+}
+
+.pd-r150 {
+  padding-right: 150px;
+}
+
+.pd-0 {
+  padding: 0px;
+}
+
+.pd-5 {
+  padding: 5px;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.pd-25 {
+  padding: 25px;
+}
+
+.pd-30 {
+  padding: 30px;
+}
+
+.pd-35 {
+  padding: 35px;
+}
+
+.pd-40 {
+  padding: 40px;
+}
+
+.pd-45 {
+  padding: 45px;
+}
+
+.pd-50 {
+  padding: 50px;
+}
+
+.pd-60 {
+  padding: 60px;
+}
+
+.pd-70 {
+  padding: 70px;
+}
+
+.pd-80 {
+  padding: 80px;
+}
+
+.pd-90 {
+  padding: 90px;
+}
+
+.pd-100 {
+  padding: 100px;
+}
+
+.pd-110 {
+  padding: 110px;
+}
+
+.pd-120 {
+  padding: 120px;
+}
+
+.pd-130 {
+  padding: 130px;
+}
+
+.pd-140 {
+  padding: 140px;
+}
+
+.pd-150 {
+  padding: 150px;
+}
+
+/*....................................
+1.2 Core area start here
+....................................*/
+/***Typography***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 53px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-22 {
+  font-size: 22px;
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.f-26 {
+  font-size: 26px;
+}
+
+.f-28 {
+  font-size: 28px;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+.f-36 {
+  font-size: 36px;
+}
+
+.f-40 {
+  font-size: 40px;
+}
+
+.f-48 {
+  font-size: 48px;
+}
+
+.f-60 {
+  font-size: 60px;
+}
+
+.f-72 {
+  font-size: 72px;
+}
+
+/* ....................................
+1.3 Mixings
+.......................................*/
+/* 
+  Responsive Call = @include res(media){@contents;}
+  media = m1920, m1600, m1200, m992, m768, m576, m480, m320
+*/
+/*....................................
+2. Header area start here
+....................................*/
+.navbar-custom {
+  padding: 0;
+  border-top: 2px solid #5bbc2e;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-custom {
+    background: #fff;
+  }
+  .navbar-custom .nav-item {
+    margin: 10px !important;
+  }
+  .navbar-custom .nav-item .nav-link {
+    position: relative;
+    line-height: 10px !important;
+    height: 30px !important;
+    text-align: left !important;
+    display: inline !important;
+  }
+}
+
+.navbar-custom img {
+  height: 60px;
+  width: 60px;
+}
+
+.navbar-custom .navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.navbar-custom .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: #3c3950;
+  position: relative;
+  display: block;
+  line-height: 75px;
+  height: 90px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link:before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #5bbc2e;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.5s cubic-bezier(1, 0, 0, 1), -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
+  left: 0;
+  bottom: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link:hover:before {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link.active:before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #5bbc2e;
+  left: 0;
+  bottom: 0;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.navbar-custom a.hire-btn {
+  padding: 6px 20px;
+}
+
+.navbar-custom.black {
+  margin: 0 auto;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+/*....................................
+3. Slider area start here
+....................................*/
+/*....................................
+4. Section area start here
+....................................*/
+/*....................................
+5. About area start here
+....................................*/
+.about-menu {
+  text-align: center;
+}
+
+.about-menu button {
+  width: 150px;
+  -webkit-box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+          box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+  margin: 0 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-menu button:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-menu button {
+    margin-bottom: 20px;
+  }
+}
+
+.about-menu button.active {
+  background: #5bbc2e;
+  color: #fff;
+}
+
+.about-menu button.active:hover {
+  color: #fff;
+}
+
+.about-menu button:hover {
+  color: #5bbc2e;
+  position: relative;
+}
+
+.about-menu button:hover:after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5bbc2e;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.about-card {
+  -webkit-box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+          box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+}
+
+.about-card .about-c-item {
+  padding: 50px;
+}
+
+.about-card .about-c-item h2 {
+  text-transform: capitalize;
+  color: #20232f;
+}
+
+.about-card .about-c-item p {
+  margin-top: 50px;
+}
+
+/*....................................
+. Menu area start here
+....................................*/
+/*....................................
+7. Reservation area start here
+....................................*/
+/*....................................
+7. Services area start here
+....................................*/
+.service-area {
+  background-image: url(../images/ser-backgound.jpg);
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-area .service-card {
+  -webkit-box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+          box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.service-area .service-card .ser-c-title {
+  padding: 30px;
+  text-align: center;
+}
+
+.service-area .service-card .ser-c-title i {
+  font-size: 36px;
+  padding: 30px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-area .service-card .ser-c-title i {
+    margin-bottom: 0;
+  }
+}
+
+.service-area .service-card .ser-c-title h3 {
+  text-transform: uppercase;
+  color: #5bbc2e;
+  margin-bottom: 30px;
+}
+
+.service-area .service-card .ser-c-title span {
+  color: #838383;
+}
+
+.service-area .service-card:hover {
+  -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+/*....................................
+8. Team area start here
+....................................*/
+@media only screen and (max-width: 768px) {
+  .owl-cus-team {
+    margin: 50px auto;
+  }
+}
+
+.owl-cus-team .team-card {
+  border: 1px solid #F5F5F5;
+  border-radius: 5px;
+}
+
+.owl-cus-team .team-card .team-c-img {
+  position: relative;
+}
+
+.owl-cus-team .team-card .team-c-img img {
+  -webkit-transition: all 0.25s cubic-bezier(0.43, 0.44, 0.63, 0.61);
+  transition: all 0.25s cubic-bezier(0.43, 0.44, 0.63, 0.61);
+}
+
+.owl-cus-team .team-card .team-c-img:hover {
+  cursor: pointer;
+}
+
+.owl-cus-team .team-card .team-c-img:hover img {
+  opacity: .6;
+}
+
+.owl-cus-team .team-card .team-c-icon {
+  background: #5bbc2e;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.owl-cus-team .team-card .team-c-icon a i {
+  color: #fff;
+  margin: 0 4px;
+  height: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  width: 26px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background: transparent;
+  -webkit-transition: all 0.25s cubic-bezier(0.43, 0.44, 0.63, 0.61);
+  transition: all 0.25s cubic-bezier(0.43, 0.44, 0.63, 0.61);
+}
+
+.owl-cus-team .team-card .team-c-icon a i:hover {
+  background: #fff;
+  color: #5bbc2e;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.owl-cus-team .team-card .b-c-title {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.owl-cus-team .team-card .b-c-title h5 {
+  margin-bottom: 10px;
+}
+
+.owl-cus-team .team-card .b-c-title span {
+  color: #838383;
+}
+
+/*....................................
+9. Price list area start here
+....................................*/
+/*....................................
+10. Pagination area start here
+....................................*/
+/*....................................
+11. Sidebar area start here
+....................................*/
+/*....................................
+12. Products area start here
+....................................*/
+/*....................................
+13. Testimonial area start here
+....................................*/
+.testimonial-area {
+  background-image: url(../images/ser-backgound.jpg);
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial-area .custom-testi {
+    margin: 50px auto;
+  }
+}
+
+.testimonial-area .custom-testi .owl-dots {
+  display: none;
+}
+
+.testimonial-area .custom-testi .testi-card {
+  text-align: center;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #F5F5F5;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-img img {
+  border-radius: 50%;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-des {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-des i {
+  color: #F5F5F5;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-info h5 {
+  color: #5bbc2e;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-info span {
+  display: block;
+  margin: 10px auto;
+}
+
+.testimonial-area .custom-testi .testi-card .testi-info .testi-rating i {
+  color: gold;
+}
+
+/*....................................
+14. Client area start here
+....................................*/
+/*....................................
+15. Form area start here
+....................................*/
+/*....................................
+16. Social link area start here
+....................................*/
+.fa-facebook {
+  color: #0B84ED;
+}
+
+.fa-linkedin-in {
+  color: #0073B0;
+}
+
+.google-plus {
+  color: red;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-pinterest {
+  color: #E60023;
+}
+
+.fa-youtube {
+  color: #E60023;
+}
+
+.fa-whatsapp {
+  color: green;
+}
+
+.fa-viber {
+  color: indigo;
+}
+
+/*....................................
+17. Blog area start here
+....................................*/
+@media only screen and (max-width: 768px) {
+  .blog-area .custom-blog {
+    margin: 50px auto;
+  }
+}
+
+.blog-area .custom-blog .blog-card {
+  border: 1px solid #F5F5F5;
+  border-radius: 5px;
+}
+
+.blog-area .custom-blog .blog-card img {
+  border: 1px solid #F5F5F5;
+  border-radius: 5px;
+}
+
+.blog-area .custom-blog .blog-card .blog-info {
+  padding: 20px;
+}
+
+.blog-area .custom-blog .blog-card .blog-info span {
+  color: #838383;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px 0;
+}
+
+.blog-area .custom-blog .blog-card .blog-info h5 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.blog-area .custom-blog .blog-card .blog-info p {
+  margin-bottom: 20px;
+}
+
+.blog-area .custom-blog .blog-card .blog-info a {
+  padding: 5px 15px;
+  background: #5bbc2e;
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.blog-area .custom-blog .blog-card .blog-info a:hover {
+  background: #838383;
+  color: #5bbc2e;
+}
+
+/*....................................
+12. Blog area start here
+....................................*/
+/*....................................
+18. Faq area start here
+....................................*/
+/*....................................
+18. Faq area start here
+....................................*/
+/*....................................
+18. Faq area start here
+....................................*/
+/*....................................
+18. Faq area start here
+....................................*/
+/*...................................
+19. Contact area start here
+....................................*/
+.contact-info {
+  background: #F5F5F5;
+}
+
+.contact-info .con-info-card {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-info .con-info-card {
+    margin-bottom: 50px;
+  }
+}
+
+.contact-info .con-info-card i {
+  font-size: 36px;
+  background: rgba(91, 188, 46, 0.25);
+  padding: 30px;
+  border-radius: 50%;
+  color: #5bbc2e;
+}
+
+.contact-info .con-info-card h5 {
+  text-transform: capitalize;
+  margin: 20px auto;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  -webkit-box-shadow: 0 10px 40px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 40px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form .form-field {
+  margin-bottom: 25px;
+  background: transparent;
+}
+
+.contact-form .form-field input,
+.contact-form .form-field textarea {
+  width: 100%;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.contact-form .form-button {
+  text-align: center;
+  margin: auto;
+}
+
+.contact-form .form-button button {
+  border: 0;
+  display: inline;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/*....................................
+20. Footer area start here
+....................................*/
+.footer-area {
+  background: #000;
+}
+
+.footer-area .footer-sec {
+  text-transform: uppercase;
+}
+
+.footer-area .footer-sec.footer-icon img {
+  width: 100px !important;
+}
+
+.footer-area .footer-sec h5 {
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.footer-area .footer-sec ul li {
+  margin-bottom: 20px;
+}
+
+.footer-area .footer-sec ul li a {
+  color: #838383;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.footer-area .footer-sec ul li a:hover {
+  color: #fff;
+}
+
+.footer-area .footer-sec ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-area .footer-bottom {
+  padding-bottom: 20px;
+}
+
+.footer-area .footer-bottom p {
+  text-transform: capitalize;
+  color: #838383;
+}
+
+.footer-area .footer-bottom p a {
+  color: #838383;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.footer-area .footer-bottom p a:hover {
+  color: #fff;
+}
+
+.footer-area .footer-bottom .footer-icon {
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-area .footer-bottom .footer-icon {
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+
+.footer-area .footer-bottom .footer-icon a {
+  margin: 0 10px;
+}
+
+.footer-area .footer-bottom .footer-icon a i {
+  color: #838383;
+}
+
+.footer-area .footer-bottom .footer-icon a i:hover {
+  color: #fff;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+/*....................................
+21. Gallery area start here
+....................................*/
+/*....................................
+22. Event area start here
+....................................*/
+/*....................................
+22. work area start here
+....................................*/
+/*# sourceMappingURL=style.css.map */
